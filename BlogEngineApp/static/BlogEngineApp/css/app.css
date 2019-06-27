@@ -1,0 +1,10 @@
+html {
+  overflow-y: auto !important; }
+  html .v-dialog, html .v-card {
+    border-radius: 30px; }
+  html .application {
+    background: url("../images/bg.jpg") !important;
+    background-blend-mode: lighten;
+    background-color: white; }
+
+/*# sourceMappingURL=app.css.map */

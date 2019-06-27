@@ -1,0 +1,5 @@
+.vscode/
+files/
+profile-pictures/
+BlogEngineVue/node_modules/
+db.sqlite3

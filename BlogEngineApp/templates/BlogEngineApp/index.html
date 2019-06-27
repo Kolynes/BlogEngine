@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" style="overflow-y:auto">
+  <head>
+    <title>UBlogger</title>
+    {% load static %}
+    <link href='src/assets/img/logo.png' rel='icon'>
+    <link href="{% static 'BlogEngineApp/css/vuetify.min.css' %}" rel='stylesheet'>
+    <link href="{% static 'BlogEngineApp/css/material.css' %}" rel='stylesheet'>
+    <meta name='theme-color' content='rgb(32, 209, 112)'>
+    <meta name='viewport' content='initial-scale=1 width=device-width'>
+  </head>
+  <body>
+    <!-- use a wrapper div since vue can't bind to the body directly -->
+    <div id="vue-app">
+      <router-view></router-view>
+    </div>
+  </body>
+  <script src="{% static 'BlogEngineApp/js/vue.min.js' %}"></script>
+  <script src="{% static 'BlogEngineApp/js/vuetify.min.js' %}"></script>
+  <script src="{% static 'BlogEngineApp/js/sign-in.js' %}"></script>
+</html>

@@ -1,0 +1,1 @@
+sass --watch src/app.scss:../BlogEngineApp/static/BlogEngineApp/css/app.css

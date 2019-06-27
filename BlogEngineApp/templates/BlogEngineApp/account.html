@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>UBlogger | Account</title>
+    {% load static %}
+    <link href='src/assets/img/logo.png' rel='icon'>
+    <link href="{% static 'BlogEngineApp/css/vue-material.min.css' %}" rel='stylesheet'>
+    <link href="{% static 'BlogEngineApp/css/quill.snow.css' %}" rel='stylesheet'>
+    <link href="{% static 'BlogEngineApp/css/theme.css' %}" rel='stylesheet'>
+    <link href="{% static 'BlogEngineApp/css/material.css' %}" rel='stylesheet'>
+    <link href="{% static 'BlogEngineApp/css/app.css' %}" rel='stylesheet'>
+    <meta name='viewport' content='initial-scale=1 width=device-width '>
+    <meta name='theme-color' content='rgb(32, 209, 112)' >
+  </head>
+  <body>
+    <div id="vue-app">
+      <router-view></router-view>
+    </div>
+  </body>
+  <script src="{% static 'BlogEngineApp/js/core.esm.dev.js' %}"></script>
+  <script src="{% static 'BlogEngineApp/js/quill.min.js' %}"></script>
+  <script src="{% static 'BlogEngineApp/js/account.js' %}"></script>
+</html>
