@@ -14,7 +14,7 @@
     "classname": "0.0.0",
     "classnames": "^2.2.6",
     "file-loader": "^2.0.0",
-    "node-sass": "^4.9.3",
+    "node-sass": "^7.0.0",
     "sass-loader": "^7.1.0",
     "vue": "^2.5.17",
     "vue-clickaway": "^2.2.2",
